@@ -308,16 +308,102 @@
 //	return 0;
 //}
 
+//int main() {
+//	int num = 0;
+//	scanf("%d", &num);
+//	switch (num)
+//	{
+//	case 1:
+//		printf("星期一\n");
+//		break;
+//	case 2:
+//		printf("星期二\n");
+//		break;
+//	case 3:
+//		printf("星期三\n");
+//		break;
+//	case 4:
+//		printf("星期四\n");
+//		break;
+//	case 5:
+//		printf("星期五\n");
+//		break;
+//	case 6:
+//		printf("星期六\n");
+//		break;
+//	case 7:
+//		printf("星期天\n");
+//		break;
+//	default:
+//		printf("输入错误，请输入1~7的数字\n");
+//	}
+//
+//	return 0;
+//}
 
+//int main() {
+//	int num = 0;
+//	scanf("%d", &num);
+//	switch (num)
+//	{
+//	case 1:
+//	case 2:
+//	case 3:
+//	case 4:
+//	case 5:
+//		printf("工作日\n");
+//		break;
+//	case 6:
+//	case 7:
+//		printf("休息日\n");
+//		break;
+//	default:
+//		printf("输入错误，请输入1~7的数字\n");
+//	}
+//
+//	return 0;
+//}
 
+//int main() {
+//	int i = 1;
+//	while (i <= 10) {
+//		printf("%d ", i);
+//		i++;
+//	}
+//
+//	return 0;
+//}
 
+//int main() {
+//	int n = 0;
+//	scanf("%d", &n);
+//	while (n) {
+//		printf("%d ", n % 10);
+//		n = n / 10;
+//	}
+//	return 0;
+//}
 
+//int main() {
+//	int i = 0;
+//	for (i = 1; i <= 10; i++) {
+//		printf("%d ", i);
+//	}
+//
+//	return 0;
+//}
 
-
-
-
-
-
+//int main() {
+//	int i = 0;
+//	int sum = 0;
+//	for (i = 1; i <= 100; i++) {
+//		if(i%3==0)
+//			sum = sum + i;
+//	}
+//	printf("%d\n", sum);
+//
+//	return 0;
+//}
 
 
 

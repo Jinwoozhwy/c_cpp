@@ -93,43 +93,91 @@
 //	return 0;
 //}
 
-void set_arr(int arr1[10], int sz1)
-{
-	int i = 0;
-	for (i = 0; i < sz1; i++)
-	{
-		arr1[i] = -1;
-	}
-}
+//void set_arr(int arr1[10], int sz1)
+//{
+//	int i = 0;
+//	for (i = 0; i < sz1; i++)
+//	{
+//		arr1[i] = -1;
+//	}
+//}
+//
+//void print_arr(int arr2[10], int sz2)
+//{
+//	int i = 0;
+//	for (i = 0; i < sz2; i++)
+//	{
+//		printf("%d ", arr2[i]);
+//	}
+//	printf("\n");
+//}
+//
+//int main()
+//{
+//	int arr[10] = { 0 };
+//	//写一个函数将arr数组的内容全部设置为-1
+//	int sz = sizeof(arr) / sizeof(arr[0]);
+//
+//	print_arr(arr, sz);
+//
+//	set_arr(arr, sz);
+//
+//	//写一个函数将arr数组的内容全部打印出来
+//	print_arr(arr,  sz);
+//	return 0;
+//}
 
-void print_arr(int arr2[10], int sz2)
-{
-	int i = 0;
-	for (i = 0; i < sz2; i++)
-	{
-		printf("%d ", arr2[i]);
-	}
-	printf("\n");
-}
+//int main()
+//{
+//	for (int i = 1; i <= 9; i++)
+//	{
+//		for (int j = 1; j <= i; j++)
+//		{
+//			printf("%dx%d=%2d ", j, i, i * j);
+//		}
+//		printf("\n");
+//	}
+//	return 0;
+//}
 
-int main()
-{
-	int arr[10] = { 0 };
-	//写一个函数将arr数组的内容全部设置为-1
-	int sz = sizeof(arr) / sizeof(arr[0]);
+//int main()
+//{
+//	int num1, num2;
+//	scanf("%d %d", &num1, &num2);
+//
+//	while (num2 != 0)
+//	{
+//		int temp = num2;
+//		num2 = num1 % num2;
+//		num1 = temp;
+//	}
+//	printf("%d", num1);
+//}
 
-	print_arr(arr, sz);
-
-	set_arr(arr, sz);
-
-	//写一个函数将arr数组的内容全部打印出来
-	print_arr(arr,  sz);
-	return 0;
-}
-
-
-
-
+//int leap_year(int year)
+//{
+//	if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
+//	{
+//		return 1;
+//	}
+//	else
+//		return 0;
+//}
+//
+//int main()
+//{
+//	int year;
+//	scanf("%d", &year);
+//	if (leap_year(year))
+//	{
+//		printf("%d年是闰年。\n", year);
+//	}
+//	else
+//	{
+//		printf("%d 年不是闰年。\n", year);
+//	}
+//	return 0;
+//}
 
 
 

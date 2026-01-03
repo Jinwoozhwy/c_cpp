@@ -184,12 +184,21 @@
 //
 //int a = 100;
 //
+//int main()
+//{
+//	{
+//		int a = 10;
+//		printf("%d\n", a);//10
+//	}
+//
+//	return 0;
+//}
+
 int main()
 {
-	{
-		int a = 10;
-		printf("%d\n", a);//10
-	}
-
+	short s = 2;
+	int b = 10;
+	printf("%d\n", sizeof(s = b + 1));
+	printf("s=%d\n", s);
 	return 0;
 }

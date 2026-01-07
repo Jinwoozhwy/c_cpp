@@ -66,14 +66,14 @@ void SLPushFront(SL* ps, SLDataType x)
 	ps->size++;
 }
 
-void SLPrint(SL s)
-{
-	for (int i = 0; i < s.size; i++)
-	{
-		printf("%d ", s.arr[i]);
-	}
-	printf("\n");
-}
+//void SLPrint(SL s)
+//{
+//	for (int i = 0; i < s.size; i++)
+//	{
+//		printf("%d ", s.arr[i]);
+//	}
+//	printf("\n");
+//}
 void SLPopBack(SL* ps)
 {
 	assert(ps);

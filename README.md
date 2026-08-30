@@ -1,2 +1,6 @@
-# c_cpp
-C/C++ learning process
+# C语言学习
+
+## 30/08/2026 更新
+
+你好
+
